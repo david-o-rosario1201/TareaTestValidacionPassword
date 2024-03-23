@@ -4,20 +4,12 @@ public class Contraseña
 {
 	public void InsertarContraseaña()
 	{
-		string password = "";
-		string patronMayusculas = @"[A-Z]{1,}";
-		string patronMinusculas = @"[a-z]{1,}";
-		string patronDigitos = @"[0-9]{1,}";	
-		string patronCaracteresEspeciales = @"\W";
-
-		VerificarContraseña verificarContraseña = new VerificarContraseña();
-
-		verificarContraseña.VerificarVacio(password);
-		verificarContraseña.VerificarCarecteresEspeciales(password, patronCaracteresEspeciales);
-		verificarContraseña.VerificarLongitud(password);
-		verificarContraseña.VerificarMayusculas(password, patronMayusculas);
-		verificarContraseña.VerificarMinusculas(password, patronMinusculas);
-		verificarContraseña.VerificarDigitosNumericos(password, patronDigitos);
+		VerificarQueNoEsteVacio("David123");
+		VerificarQueNoTengaCaracteresEspeciales("David123");
+		VerificarQueTengaPorLoMenosUnaMayuscula("David123");
+		VerificarQueTengaPorLoMenosUnaMinuscula("David123");
+		VerificarQueLaLongitudSeaPorLoMenosCincoDigitos("David123");
+		VerificarQueTengaPorLoMenosUnDigitoNumerico("David123");
 	}
 
 	public bool VerificarQueNoEsteVacio(string password)

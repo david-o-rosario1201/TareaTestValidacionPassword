@@ -12,7 +12,7 @@ namespace TestProjectValidacionContraseña
 			var cut = new Contraseña();
 
 			//Act
-			string password = "David123";
+			string password = "";
 			bool expect = false;
 
 			var result = cut.VerificarQueNoEsteVacio(password);
@@ -28,7 +28,7 @@ namespace TestProjectValidacionContraseña
 			var cut = new Contraseña();
 
 			//Act
-			string password = "David123";
+			string password = "David1#23";
 			bool expect = true;
 
 			var result = cut.VerificarQueNoTengaCaracteresEspeciales(password);
@@ -44,7 +44,7 @@ namespace TestProjectValidacionContraseña
 			var cut = new Contraseña();
 
 			//Act
-			string password = "David123";
+			string password = "Da123";
 			bool expect = true;
 
 			var result = cut.VerificarQueLaLongitudSeaPorLoMenosCincoDigitos(password);
@@ -60,7 +60,7 @@ namespace TestProjectValidacionContraseña
 			var cut = new Contraseña();
 
 			//Act
-			string password = "David123";
+			string password = "david123";
 			bool expect = true;
 
 			var result = cut.VerificarQueTengaPorLoMenosUnaMayuscula(password);
