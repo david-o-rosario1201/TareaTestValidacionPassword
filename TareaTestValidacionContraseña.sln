@@ -5,6 +5,8 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TareaTestValidacionContraseña", "TareaTestValidacionContraseña\TareaTestValidacionContraseña.csproj", "{C5DA0780-5C57-46BA-9328-239256A9A55B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProjectValidacionContraseña", "TestProjectValidacionContraseña\TestProjectValidacionContraseña.csproj", "{5DF75E50-8626-406B-B404-BDFDC5C25A51}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{C5DA0780-5C57-46BA-9328-239256A9A55B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5DA0780-5C57-46BA-9328-239256A9A55B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5DA0780-5C57-46BA-9328-239256A9A55B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DF75E50-8626-406B-B404-BDFDC5C25A51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DF75E50-8626-406B-B404-BDFDC5C25A51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DF75E50-8626-406B-B404-BDFDC5C25A51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DF75E50-8626-406B-B404-BDFDC5C25A51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
